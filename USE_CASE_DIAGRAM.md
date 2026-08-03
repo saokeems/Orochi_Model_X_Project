@@ -53,20 +53,19 @@ flowchart LR
         UC08(["UC08: ประสานงานกับพาร์ทเนอร์"]):::usecase
         UC09(["UC09: วิเคราะห์ข้อมูลผู้ใช้"]):::usecase
         
-        UC10(["UC10: รับออเดอร์ผลิตและส่งมอบ"]):::usecase
+        UC10(["UC10: รับออเดอร์ผลิต"]):::usecase
+        UC11(["UC11: แจ้งสถานะการผลิต/ส่งมอบ"]):::usecase
     end
 
     %% Relationships - Customer
     Customer --> UC01
     Customer --> UC02
-    Customer --> UC03
     Customer --> UC04
     Customer --> UC05
 
     %% Dependencies (Includes)
-    UC01 -.-> |"include"| UC03
-    UC02 -.-> |"include"| UC03
-    UC03 -.-> |"include"| UC04
+    UC01 -.-> |"<<include>>"| UC03
+    UC02 -.-> |"<<include>>"| UC03
 
     %% Relationships - Admin
     Admin --> UC06
@@ -76,7 +75,7 @@ flowchart LR
 
     %% Relationships - Partner
     Partner --> UC10
+    Partner --> UC11
     
     %% Cross interactions
     UC08 -.-> |"ส่งออเดอร์"| UC10
-```
