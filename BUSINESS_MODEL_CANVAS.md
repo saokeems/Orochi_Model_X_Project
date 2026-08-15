@@ -39,7 +39,6 @@
 3. ซอฟต์แวร์ลิขสิทธิ์และเทคโนโลยี (เช่น AI, Adobe Illustrator, Photoshop, Canva)
 
 ## 7. กิจกรรมหลัก (Key Activities)
-กิจกรรมหลักของ Digital Product สรุปสั้นๆ เหลือ 4 ขั้นตอน:
 1. **Research & Plan:** หา Pain Point และวางแผนผลิตภัณฑ์
 2. **Build & Design:** ออกแบบ UX/UI และเขียนโค้ด/สร้างคอนเทนต์
 3. **Launch & Market:** เปิดตัวและหาผู้ใช้งานใหม่
@@ -52,7 +51,6 @@
 4. cms จากกลุ่มนักวาดนักออกแบบ
 
 ## 9. โครงสร้างต้นทุน (Cost Structure)
-โครงสร้างต้นทุนหลักของ Digital Product แบ่งเป็น 4 ส่วน:
 1. **R&D & Development (สร้าง):** ค่าเครื่องมือ/ซอฟต์แวร์ในการสร้าง
 2. **Infrastructure & Hosting (ระบบ):** ค่า Cloud (AWS, GCP), Server, Domain, API, และระบบความปลอดภัย
 3. **Marketing & Acquisition (หาลูกค้า):** ค่าโฆษณาออนไลน์, Content, SEO และการทำการตลาดเพื่อดึงคนมาใช้

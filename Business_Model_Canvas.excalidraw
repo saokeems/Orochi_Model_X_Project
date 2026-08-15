@@ -281,8 +281,8 @@
     {
       "id": "value-propositions-box",
       "type": "rectangle",
-      "x": 560,
-      "y": 80,
+      "x": 558,
+      "y": 89,
       "width": 280,
       "height": 500,
       "angle": 0,
@@ -296,11 +296,11 @@
       "roundness": {
         "type": 3
       },
-      "version": 2,
-      "versionNonce": 444212407,
+      "version": 46,
+      "versionNonce": 2132241477,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1785768291816,
+      "updated": 1785924059274,
       "link": null,
       "locked": false,
       "index": "a8",
