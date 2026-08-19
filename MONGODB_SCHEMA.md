@@ -25,7 +25,8 @@
 ```json
 {
   "_id": "ObjectId",
-  "name": "String",
+  "first_name": "String",
+  "last_name": "String",
   "email": "String (Unique)",
   "phone": "String",
   "user_type": "String (Enum: ['customer', 'admin'])",
